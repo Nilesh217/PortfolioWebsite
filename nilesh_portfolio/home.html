@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <!-- Adding the styles using the css files  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Sidebar.css" />
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Boxicons CSS -->
+    <!-- Here I am using box icon.css to get the icons   -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- Adding the favicon below  :  --> 
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+</head>
+<body>
+
+
+    <nav class="navbar">
+        <div class="logo_item">
+          <i class="bx bx-menu" id="sidebarOpen"></i>
+          <img src="images/nilesh.jpg" alt=""></i>Nilesh Dwivedi  
+        </div>     
+    </nav>
+
+     <!-- sidebar -->
+     <nav class="sidebar close hoverable" >
+        <div class="menu_content">
+          <ul class="menu_items" style="z-index: 10000;">
+            <li class="item">
+              <a href="/home.html" class="nav_link">
+                <span class="navlink_icon">
+                  <i class="bx bx-home"></i>
+                </span>
+                <span class="navlink">Home</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="/about.html" class="nav_link">
+                <span class="navlink_icon">
+                  <i class="bx bx-user"></i>
+                </span>
+                <span class="navlink">About</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="/achievements.html" class="nav_link">
+                <span class="navlink_icon">
+                  <i class="bx bx-medal"></i>
+                </span>
+                <span class="navlink">Achievements</span>
+              </a>
+            </li>
+            
+          </ul>
+  
+          <!-- Sidebar Open / Close -->
+          <div class="bottom_content">
+            <div class="bottom expand_sidebar" id="expandButton" style="display: none;">
+              <span> Expand</span>
+              <i class='bx bx-log-in'></i>
+            </div>
+            <div class="bottom collapse_sidebar" id="collapseButton">
+              <span> Collapse</span>
+              <i class='bx bx-log-out'></i>
+            </div>
+          </div>
+
+          
+        </div>
+      </nav>
+
+
+    
+
+
+    <section class="home">
+    <div class="home-content">
+    <h3>Hello, nice to meet you. It's me</h3>
+    <h1>Nilesh Dwivedi</h1>
+    <h3>And I am a <span class="text"></span></h3>
+    <p>I am an aspiring Full Stack Web Developer who has recently started his journey of web development.</p>
+    <div class="home-sci">
+    <a href="mailto:nilesh.24bcy10095@vitbhopal.ac.in" style="--i:7"><i class='bx bxl-gmail'></i></a>
+    <a href="https://www.instagram.com/nilesh.78079/" style="--i:8"><i class='bx bxl-instagram'></i></a>
+    <a href="https://www.linkedin.com/in/nilesh-dwivedi-746459324/" style="--i:9"><i class='bx bxl-linkedin'></i></a>
+    <a href="http://wa.me/+917398053911" style="--i:10"><i class='bx bxl-whatsapp'></i></a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+
+    <script src="main.js"></script>
+
+   
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

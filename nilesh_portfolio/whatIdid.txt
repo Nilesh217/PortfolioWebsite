@@ -1,0 +1,11 @@
+Issues witht he website: 
+
+1_ Looking fine on the website but very poor on terms on responsiveness  
+2_ Sidebar is must and is missing 
+3_ Carousel is missing in place of images  
+4_ Follow up pointer is a luxury but is missing   
+
+
+What I did? 
+
+1_ Went to favicon.ico and generated a favicon and added it in the favicon folder in the main directory :https://favicon.io/favicon-converter/
